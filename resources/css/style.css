@@ -4,10 +4,12 @@
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
+  /*opacity: 0.9;*/
   text-align: center;
 }
 
+
+/* start of header styling */
 header {
   display: flex;
   justify-content: space-between;
@@ -15,6 +17,7 @@ header {
   z-index: 1;
   width: 1350px;
   padding-top: 20px;
+  border-bottom: 1px solid seashell;
 }
 
 nav {
@@ -22,11 +25,49 @@ nav {
   height: 69px;
 }
 
-span {
+nav span {
   padding-right: 30px;
 }
 
 .logo img {
   height: 50px;
   margin-left: 10px;
+}
+
+/* universal styling for products */
+
+.products {
+  /*display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;*/
+}
+
+.image-content {
+/*  display: flex;*/
+}
+
+/* start of container */
+
+.container {
+  /*display: flex;*/
+  width: 1350px;
+  /*margin: 0 20px;*/
+  padding-top: 116px;
+}
+
+.main {
+  background: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.statment {
+  background-color: black;
+}
+
+.berry-tea .image-content {
+  background: url("../images/img-berryblitz.jpg");
+  height: 200px;
+  width: 300px;
 }
