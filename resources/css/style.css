@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  width: 1350px;
+  padding-top: 20px;
+}
+
+nav {
+  display: inline-block;
+  height: 69px;
+}
+
+span {
+  padding-right: 30px;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
